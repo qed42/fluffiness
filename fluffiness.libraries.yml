@@ -1,0 +1,11 @@
+global-scripts:
+  js:
+    js/global.js: {}
+  dependencies:
+      - core/jquery
+      - core/jquery.once
+
+maintenance-page:
+  css:
+    theme:
+      dist/css/maintenance-page.css: {}

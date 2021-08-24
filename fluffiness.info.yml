@@ -1,0 +1,22 @@
+name: Fluffiness
+type: theme
+description: 'A cuddly theme that offers extra fluffiness.'
+core_version_requirement: ^8.8.0 || ^9
+
+# Defines the base theme.
+base theme: cohesion_theme
+
+libraries:
+  - fluffiness/global-scripts
+
+cohesion: true
+
+# Defines theme regions available.
+regions:
+  header: Header
+  featured: Featured
+  content: Content
+  sidebar_first: First sidebar
+  sidebar_second: Second sidebar
+  footer: Footer
+  dx8_hidden: Site Studio hidden region
